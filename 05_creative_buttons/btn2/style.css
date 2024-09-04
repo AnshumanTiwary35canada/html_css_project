@@ -17,7 +17,7 @@ a{
 }
 
 a::before{
-    content: 'button';
+    content: 'Did you';
     position: absolute;
     top:0;
     left: 0;
@@ -35,9 +35,23 @@ a::before{
     transition: all 0.5s;
 }
 a::after{
-    content: 'button';
+    content: 'Enjoy it';
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(14,231,14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotateX(270deg);
+    transform-origin: top;
+    transition: all 0.5s;
+    transition-delay: 0.25s;
+
+}
+a:hover:before,a:hover:after {
+    transform: rotateX(0);
 
 }
