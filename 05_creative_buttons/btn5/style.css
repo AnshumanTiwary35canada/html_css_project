@@ -2,4 +2,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: blue;
+    background: #134241;
 }
