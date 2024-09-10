@@ -1,5 +1,38 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: sans-serif;
+    background: crimson;
+}
+
+.btn{
+    border: none;
+    padding: 1rem 4rem;
+    background: rgb(17, 17, 137,0.824);
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn:before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: -10px;
+    left: -10px;
+    /* background: teal; */
+    border-top: 4px solid darkblue;
+    border-left: 4px solid darkblue;
+    transition: all 0.25s;
 }
