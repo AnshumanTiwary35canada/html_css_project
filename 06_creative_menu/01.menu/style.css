@@ -35,5 +35,18 @@ ul li a {
 }
 
 a:before{
-    color: #243444;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    transform: scale(0);
+    transition: all 1s;
+    transform-origin: left;
 }
+
+ul li a:hover:before{
+    transform: scaleX(1);
+} 
