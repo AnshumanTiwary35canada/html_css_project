@@ -48,5 +48,5 @@ a:before{
 }
 
 ul li a:hover:before{
-    transform: scaleX(3.2);
+    transform: scaleX(3.56);
 } 
