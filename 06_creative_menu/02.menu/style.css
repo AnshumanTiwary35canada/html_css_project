@@ -35,6 +35,6 @@ li{
     color: #000;
     font-size: 22px;
     font-weight: bold;
-    transition: 1s;
+    transition: 1s all;
 }
 
