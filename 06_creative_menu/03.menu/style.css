@@ -44,6 +44,6 @@ ul li a {
     border-width: 0 0 3px 3px;
     opacity: 0;
 }
-.list-items:before:hover{
-    
+.list-items:hover:before{
+    opacity: 1;
 }
